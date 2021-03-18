@@ -15,7 +15,7 @@ class Box{
     this.body = Bodies.rectangle(x,y,width,height,option);
 
     World.add(world,this.body);
-    this.Visibility=255;
+    this.Visiblity=255;
     
     
     }
@@ -37,8 +37,8 @@ class Box{
                else{
                  World.remove(world, this.body);
                  push();
-                 this.Visibility = this.Visibility - 5;
-                 tint(255,this.Visibility);
+                 this.Visiblity = this.Visiblity - 5;
+                 tint(255,this.Visiblity);
             
                 // image(this.image, this.body.position.x, this.body.position.y, 50, 50);
             
@@ -52,7 +52,7 @@ class Box{
     
                 score(){
               //console.log(this.Visiblity)
-                  if(this.Visibility<0 && this.Visibility>-1005 ){
+                  if(this.Visiblity<0 && this.Visiblity>-1005 ){
             
                       scoree++;
             
