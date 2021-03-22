@@ -39,6 +39,7 @@ class Box{
                  push();
                  this.Visiblity = this.Visiblity - 5;
                  tint(255,this.Visiblity);
+                 fill(255, 255, 255,tint)
             
                  //image(this.image, this.body.position.x, this.body.position.y, 50, 50);
             
