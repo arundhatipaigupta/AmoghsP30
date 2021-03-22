@@ -38,7 +38,7 @@ class Box{
                  World.remove(world, this.body);
                  push();
                  this.Visiblity = this.Visiblity - 5;
-                 //tint(255,this.Visiblity);
+                 tint(255,this.Visiblity);
             
                  //image(this.image, this.body.position.x, this.body.position.y, 50, 50);
             
